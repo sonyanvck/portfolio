@@ -1,0 +1,56 @@
+body {
+  background: white;
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+header {
+  background: #A1A9D2;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav {
+  background: #E7E9F3;
+  padding: 10px;
+}
+
+.links:hover {
+  background-color: white;
+}
+
+h1 {
+  font-family: merriweather, serif;
+  font-size: 40px;
+  color: #1F2337;
+}
+
+.italics {
+  font-family: merriweather, serif;
+  font-size: 16px;
+  color: white;
+}
+
+h2 {
+  font-family: merriweather, serif;
+  font-size: 30px;
+  color: #5D6BB1;
+}
+
+h3 {
+  font-family: merriweather, serif;
+  font-size: 20px;
+  color: #5D6BB1;
+}
+h4 {
+  font-family: merriweather, serif;
+  font-size: 20px;
+  color: #5D6BB1;
+}
+
+footer {
+  background: #1F2337;
+  text-align: center;
+  padding: 10px;
+}
