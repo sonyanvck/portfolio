@@ -1,3 +1,9 @@
+body {
+  background: white;
+  font-family: sans-serif;
+  color: black;
+}
+
 header {
   background: #2c9ab7;
   padding: 45px;
@@ -9,7 +15,7 @@ h1 {
   color: white;
   margin-bottom: -15px;
   position: relative;
-  left: 70px;
+  left: 100px;
 }
 
 h2 {
@@ -18,7 +24,7 @@ h2 {
   font-weight: lighter;
   color: white;
   position: relative;
-  left: 70px;
+  left: 100px;
 }
 
 .nav1 {
@@ -33,5 +39,63 @@ h2 {
   color: black;
   text-decoration: none;
   position: relative;
-  left: 90px;
+  left: 125px;
+}
+
+.h3blue {
+  color: #2c9ab7;
+  font-size: 18px;
+}
+
+.link {
+  text-decoration: none;
+  color: #2c9ab7;
+
+}
+
+.quote {
+  color: #52bad5;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 600px;
+  margin-left: 145px;
+  line-height: 1.5;
+}
+
+.h3-size {
+  font-size: 18px;
+}
+
+aside {
+  float: right;
+  font-size: 13px;
+  margin-right: 145px;
+  margin-top: 30px;
+  overflow: visible;
+}
+
+.text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 600px;
+  margin-left: 145px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+footer {
+  background: #3a3a3a;
+  padding: 45px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.nav-footer {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  line-height: 2.0;
 }
