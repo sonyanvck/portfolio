@@ -1,6 +1,6 @@
 body {
   background: white;
-  font-family: "open sans", sans-serif;
+  font-family: "Prompt", sans-serif;
   font-size: 16px;
   color: black;
 }
@@ -21,30 +21,36 @@ header {
 }
 
 h1 {
-  font-family: merriweather, serif;
+  font-family: "Nixie One", serif;
   font-size: 40px;
   color: #1F2337;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
 .italics {
-  font-family: merriweather, serif;
+  font-family: "Nixie One", serif;
   font-size: 16px;
   color: white;
 }
 
 h2 {
-  font-family: merriweather, serif;
+  font-family: "Nixie One", serif;
   font-size: 30px;
   color: #5D6BB1;
 }
 
 h3 {
-  font-family: merriweather, serif;
+  font-family: "Nixie One", serif;
   font-size: 20px;
   color: #5D6BB1;
 }
 h4 {
-  font-family: merriweather, serif;
+  font-family: "Nixie One", serif;
   font-size: 20px;
   color: #5D6BB1;
 }
