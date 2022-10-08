@@ -32,6 +32,34 @@ h1 {
   justify-content: space-around;
 }
 
+.img1 {
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.img1:hover {
+  transform: rotate(-10deg);
+}
+
+.img2 {
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.img2:hover {
+  width: 350px;
+  height: 350px;
+}
+
+.img3 {
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.img3:hover {
+  transform: rotate(10deg);
+}
+
 .italics {
   font-family: "Nixie One", serif;
   font-size: 16px;
@@ -44,6 +72,24 @@ h2 {
   color: #5D6BB1;
 }
 
+.transition1 {
+  transition-property: font-size;
+  transition-duration: 1s;
+}
+
+.transition1:hover {
+  font-size: 40px;
+}
+
+.transition2 {
+  transition-property: font-size;
+  transition-duration: 1s;
+}
+
+.transition2:hover {
+  font-size: 25px;
+}
+
 h3 {
   font-family: "Nixie One", serif;
   font-size: 20px;
@@ -54,6 +100,12 @@ h4 {
   font-size: 20px;
   color: #5D6BB1;
 }
+
+aside ol li:nth-child(odd) {
+  color: purple;
+}
+
+
 
 footer {
   background: #1F2337;
