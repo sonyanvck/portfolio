@@ -1,0 +1,52 @@
+body {
+  font-family: arial, sans-serif;
+  color: black;
+}
+
+header {
+  background-color: rgb(3, 163, 223);
+  padding: 1em;
+  margin: -.5em -.5em;
+  height: 150px;
+  font-family: arial, sans-serif;
+}
+
+.header-logo {
+   padding-left: 50px;
+   padding-top: 20px;
+}
+
+.address {
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  float: right;
+  padding-top: 25px;
+  padding-right: 50px;
+}
+
+nav {
+  background-color: #444444;
+  padding: 5px;
+  margin: 0 -.5em;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.link {
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  color: white;
+  padding: 15px;
+}
+
+.link:hover {
+  background-color: #555555;
+  padding: inherit;
+}
+
+.archery-target {
+  width: 100vw;
+  margin: -.5em;
+}
