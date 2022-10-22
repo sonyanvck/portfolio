@@ -1,12 +1,17 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
   font-family: arial, sans-serif;
-  color: black;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
 header {
   background-color: rgb(3, 163, 223);
-  padding: 1em;
-  margin: -.5em -.5em;
   height: 150px;
   font-family: arial, sans-serif;
 }
@@ -28,25 +33,58 @@ header {
 nav {
   background-color: #444444;
   padding: 5px;
-  margin: 0 -.5em;
   text-align: center;
   position: sticky;
   top: 0;
 }
 
-.link {
+li, a {
+  display: flex;
+  display: inline-block;
   text-decoration: none;
   font-family: arial, sans-serif;
+  font-size: 15px;
   color: white;
-  padding: 15px;
+  padding: 0 10px 0 10px;
 }
 
-.link:hover {
-  background-color: #555555;
-  padding: inherit;
+.nav-link li a {
+  transition: all 0.3s ease 0s;
 }
 
-.archery-target {
-  width: 100vw;
-  margin: -.5em;
+.nav-link li a:hover {
+  color: rgb(236, 183, 34)
+}
+
+.body-text {
+  margin: 10px 75px 0 75px;
+  font-size: 17px;
+}
+
+.line {
+  border-bottom: 3px solid rgba(3, 163, 223);
+  display: block;
+}
+
+h1 {
+  background-color: rgb(236, 183, 34);
+  text-align: center;
+  color: #444444;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h2 {
+  background-color: rgb(236, 183, 34);
+  text-align: center;
+  color: #444444;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h3 {
+  color: #1b447f;
+  font-weight: bold;
+  font-size; 20px;
+  text-decoration: underline;
 }
