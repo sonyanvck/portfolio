@@ -3,16 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Housing Inquiry Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/style-sheet-9.css">
   </head>
 
   <body>
-    <h3>What type of home are you looking for?</h3>
+    <header>
+      <h3>What type of home are you looking for?</h3>
       <p>Fill out and submit the form below and one of our agents will get back to you.</p>
-    <form method="get">
-      <fieldset>
-        <legend>Select all options that apply!</legend>
+      <br>
+      <p>Select all options that apply</p>
+    </header>
 
-          <p>Home Type:</p>
+    <form method="get">
+          <p><strong>Home Type:</strong></p>
           <label>House
             <input type="checkbox" name="type" value="house">
           </label>
@@ -26,7 +29,7 @@
             <input type="checkbox" name="type" value="manufactured">
           </label>
 
-        <p>Number of bedrooms:</p>
+        <p><strong>Number of bedrooms:</strong></p>
         <label>Any
           <input type="checkbox" name="type" value="any">
         </label>
@@ -40,7 +43,7 @@
           <input type="checkbox" name="type" value="threePlus">
         </label>
 
-        <p>Number of bathrooms:</p>
+        <p><strong>Number of bathrooms:</strong></p>
         <label>Any
           <input type="checkbox" name="type" value="any">
         </label>
@@ -54,31 +57,31 @@
           <input type="checkbox" name="type" value="threePlus">
         </label>
 
-        <p>Price</p>
+        <p><strong>Price</strong></p>
         <label>Minimum price:
-          <input type="number" name="type" placeholder="&#36;50,000">
+          <input type="number" name="type" placeholder="&#36;">
         </label>
         <label>Maximum price:
           <input type="number" name="type" placeholder="&#36;">
         </label>
-        </fieldset>
 
-        <fieldset>
-          <legend>Contact Form</legend>
+          <p><strong>Contact Form</strong></p>
           <label>First name:
             <input type="text" name="firstName">
           </label>
           <label>Last name:
             <input type="text" name="lastName">
           </label>
+          <br>
           <label>Email:
             <input type="email" name="email">
           </label>
           <label>Phone number:
             <input type="tel" id="phoneNumber" name="phoneNumber">
           </label>
-          <label for="location">Where are you located?</label>
-            <select name="location" id="location">
+          <br>
+          <label for="location"><strong>Where are you located?</strong></label>
+            <select name="location" id="location" class="location">
             <option value="ballard">Ballard</option>
             <option value="beaconHill">Beacon Hill</option>
             <option value="bellevue">Bellevue/Eastside</option>
@@ -91,9 +94,9 @@
             <option value="universityDistrict">University District</option>
             <option value="westSeattle">West Seattle</option>
             </select>
+            <br>
+            <input type="submit" value="Submit" id="submit">
 
-            <input type="submit" value="Submit">
-        </fieldset>
 
       </form>
   </body>
