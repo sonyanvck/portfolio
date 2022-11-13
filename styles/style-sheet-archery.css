@@ -10,6 +10,18 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
+.hide {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+.hide:focus {
+  left: 0;
+  color: black;
+  background-color: #FFFFA8;
+}
+
 header {
   background-color: rgb(3, 163, 223);
   height: 150px;

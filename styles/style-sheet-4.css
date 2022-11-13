@@ -4,6 +4,18 @@ body {
   color: black;
 }
 
+.hide {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+.hide:focus {
+  left: 0;
+  color: black;
+  background-color: #FFFFA8;
+}
+
 header {
   background: #2c9ab7;
   padding: 45px;
