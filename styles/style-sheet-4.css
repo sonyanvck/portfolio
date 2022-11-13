@@ -42,6 +42,14 @@ h2 {
   left: 125px;
 }
 
+a:visited {
+  color: #2c9ab7;
+}
+
+a:hover {
+  background-color: #FFFFA8;
+}
+
 .h3blue {
   color: #2c9ab7;
   font-size: 18px;
@@ -50,7 +58,6 @@ h2 {
 .link {
   text-decoration: none;
   color: #2c9ab7;
-
 }
 
 .quote {
